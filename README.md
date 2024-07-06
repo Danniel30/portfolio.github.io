@@ -23,7 +23,7 @@ Este portfólio foi criado com o objetivo de apresentar os projetos que desenvol
 
 Para acessar o portifolio clique no botão abaixo ou na foto acima.
  
-[![GITHUB](https://img.shields.io/badge/Portifolio-E34F26?style=for-the-badge&logo=github&logoColor=black&color=grey)](https://danniel30.github.io/Portfolio/)
+[![GITHUB](https://img.shields.io/badge/Portifolio-E34F26?style=for-the-badge&logo=github&logoColor=black&color=grey)](https://danniel30.github.io/portfolio.github.io/)
 
 
 ## Contato📩
