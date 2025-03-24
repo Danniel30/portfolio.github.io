@@ -169,6 +169,74 @@ nav {
     max-width: 800px;
 }
 
+/* Certificações Section */
+.certifications-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.certification-card {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+    flex: 1 1 30%;
+    transition: transform 0.3s ease;
+}
+
+.certification-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.certification-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.certification-card p {
+    text-align: justify;
+    font-size: 1.2em;
+    color: #666;
+}
+
+.certification-card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 1.1em;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.certification-card:hover {
+    
+    transform: translateY(-3px);
+}
+
+@media screen and (max-width: 768px) {
+    .certification-card {
+        flex: 1 1 45%;  /* 2 items per row */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .certification-card {
+        flex: 1 1 100%;  /* 1 item per row */
+    }
+}
+
 /* Skill and Project Cards */
 .skill-card i {
     font-size: 36px;
@@ -184,8 +252,26 @@ nav {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     max-width: 300px;
+    text-align: center;
 }
 
+.project-card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 1.1em;
+    text-align: center;
+    
+    margin-top: 15px;
+}
+.project-card p {
+    text-align: justify;
+}
 .skill-card:hover,
 .project-card:hover,
 .btnbig:hover {
